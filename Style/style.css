@@ -37,7 +37,7 @@ nav ul::after, main .content::after{
     clear: both;
     display: table;
 }
-nav ul li{
+nav>ul>li{
     width: 19.99999%;
     text-align: center;
     float:left;
@@ -80,4 +80,12 @@ footer{
     text-align: center;
 }
 
+.submenu{
+    position: absolute;
+    width:250px;
+    display: none;
+}
+.has-submenu:hover .submenu{
+    display: block;
+}
 
